@@ -6,7 +6,7 @@ class CombineItemsInCart < ActiveRecord::Migration
       sums.each do |product_id, quantity|
         if quantity > 1
           cart.line_items.where(product_id: product_id).delete_all
-          cart.line_items.create(product_id: product_id, quantity: quantity)
+          cart.line_items.create(product_id: product_id, quantity: quantit)yccr
         end
       end
     end
