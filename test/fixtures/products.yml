@@ -1,10 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
-one:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+coffeescript:
+  title: CoffeeScript
+  description:
+    CoffeeScript is JavaScript done right. 
+    It provides all of JavaScripts functionality wrapped in a cleaner, more succinct syntax.
+    In the first book on this exciting new language,
+    CoffeeScript guru Trevor Burnham shows you how to hold onto all the power and flexibility of JavaScript
+    while writing clearer, cleaner, and safer code.
+  image_url: coffeescript.png
+  price: 36.00
 
 ruby:
   title: Programming Ruby 1.9
