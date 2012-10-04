@@ -3,6 +3,7 @@ class StoreController < ApplicationController
   	@products = Product.order(:title)
   	@time = Time.now.strftime("%d/%m/%Y %H:%M:%S")
   	@message = show_message
+  	@cart = current_cart
   end
 
 private
